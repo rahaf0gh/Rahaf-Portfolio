@@ -12,3 +12,5 @@ body{font-family:'Tajawal',sans-serif;line-height:1.85}html[lang=en] body{font-f
 .contact-links .phone{display:inline-flex;align-items:center;gap:8px;direction:ltr;font:700 clamp(16px,2vw,20px)/1.6 'Outfit';color:var(--ink)}
 .contact-links .phone-label,.contact-links .phone-number{white-space:nowrap}
 .contact-links .phone .ui-icon{flex-shrink:0}
+
+.credentials-stack{display:grid;gap:22px}.achievement-card{padding:28px;border:1px solid #e2c8b6;border-radius:12px;background:#fbefe5}.achievement-card h3{font-size:24px;line-height:1.6;margin:12px 0;font-weight:700}.achievement-card p{margin:0;font-size:16px}
