@@ -14,3 +14,21 @@ body{font-family:'Tajawal',sans-serif;line-height:1.85}html[lang=en] body{font-f
 .contact-links .phone .ui-icon{flex-shrink:0}
 
 .credentials-stack{display:grid;gap:22px}.achievement-card{padding:28px;border:1px solid #e2c8b6;border-radius:12px;background:#fbefe5}.achievement-card h3{font-size:24px;line-height:1.6;margin:12px 0;font-weight:700}.achievement-card p{margin:0;font-size:16px}
+
+
+/* Dashboard media and hackathon evidence. */
+.project-gallery{min-width:0}
+.media-track{display:flex;direction:ltr;position:relative;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#b483a0 #f1eaf3}
+.media-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;background:#f1eaf3;aspect-ratio:16/10;display:flex;align-items:center;justify-content:center}
+.media-slide video{display:block;width:100%;height:100%;object-fit:contain;background:#f1eaf3}
+.media-slide .project-image{height:100%;border-bottom:0}
+.media-switch{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:9px 12px;border-bottom:1px solid var(--line)}
+.media-switch button{border:1px solid var(--line);border-radius:20px;background:transparent;color:var(--ink);padding:3px 12px;font-size:13px}
+.media-switch button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+.media-switch>span{font-size:11px;color:var(--muted);margin-inline-start:auto}
+#dialog-video:not([hidden]){display:block;margin:20px 0}
+#dialog-video video{display:block;width:100%;max-height:60vh;background:#f1eaf3;border-radius:6px}
+.achievement-link{margin-top:18px;font-size:14px}
+.achievement-results{display:block;margin-top:22px}
+.achievement-results img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;background:#000;border-radius:8px}
+.achievement-results span{display:block;margin-top:8px;font-size:13px;color:var(--accent)}
